@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kellogg's Dolls' houses</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  
+</head>
+
+<body class="fade-in">
+
+  <nav class="navbar fade-in"> <!-- Use the "navbar" class for the navigation bar -->
+    <div id = "navIm" class="navbar-image">
+      <img src="images/theme/blueBanner.jpg" alt="Image in Navbar">
+    </div>
+    <ul>
+
+      <!--http://www.kelloggsdollhouses.com/images/theme/kdh_banner.gif-->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="archives.html">Archives</a></li>
+    </ul>
+  </nav>
+  <!-- Header Section -->
+
+  <header>
+    <div id="homePageHeader" class="header-bg"></div>
+    <div class="header-title">
+      
+      <p id="status"></p>
+    </div>
+  </header>
+
+  <script>
+    const d = new Date();
+    let day = d.getDay();
+    let hour = d.getHours();
+    let minute = d.getMinutes();
+    let status = false;
+    let soon = false;
+    if (
+      (day === 2 || day === 4 || day === 6) && // Tuesday, Thursday, or Saturday
+      (hour >= 12 && hour <= 16) // Opening time range: 12:00pm-4:00pm
+    ) {
+      status = true;
+    } else if (day === 5 && hour >= 10 && hour <= 14) { // Friday, Time range: 10:00am-2:00pm
+      status = true;
+    } else if (day === 0 && hour >= 13 && hour <= 16) { // Sunday, Opening time range: 1:00pm-4:00pm
+      status = true;
+    }
+    
+    if((day === 0 || day === 2 || day === 4 || day === 6) &&
+    (hour === 16)&&
+    (minute < 30)
+    ){
+      soon = true;
+    }
+    else if((day ===5)&&
+    (hour === 14)&&
+    (minute < 30)
+    ){
+      soon = true;
+    }
+    if (status) {
+      document.getElementById("status").innerHTML = "We are open.";
+      document.getElementById("status").style.color = "green";
+      document.getElementById("homePageHeader").style.boxShadow = "0 0 20px rgba(0, 255, 0, 0.8) inset";
+    } 
+    else if(soon){
+      document.getElementById("status").innerHTML = "Closing soon.";
+      document.getElementById("status").style.color = "yellow";
+      document.getElementById("homePageHeader").style.boxShadow = "0 0 20px rgba(255, 255, 0, 0.8) inset";
+    }
+    else {
+      document.getElementById("status").innerHTML = "We are closed.";
+      document.getElementById("status").style.color = "red";
+      document.getElementById("homePageHeader").style.boxShadow = "0 0 20px rgba(255, 0, 0, 0.8) inset";
+    }
+
+  </script>
+  <!-- Main Content Section -->
+  <section class="main-content fade-in" style="background-color:#d3d3d3">
+    <img src="http://www.kelloggsdollhouses.com/images/theme/kdh_banner.gif">
+<div id="content" style="text-align:justify">
+  <b>Who are we?</b> Kellogg's Doll Houses, located in the historic whaling town of
+  Cold Spring Harbor on the Long Island Sound, was founded by the late Ned Kellogg
+  in 1977 who was a master crasftsmen and whose work has been featured on TV, 
+  newspapers, books, and magazines. Mr. Kellogg passed away in 2008 and he was known 
+  for his outstanding museum-quality dollhouses and replicas as well as for his 
+  popular-priced houses from a Cape to a Victorian to a Tudor.
+  <br>
+  <br>
+  This website is dedicated to the late Ned Kellogg and some of his works can be
+  seen in the <a href="archives.html" target="#blank">archive</a> section of this site.
+  <br>
+  <br>
+  Ned taught much of his techniques, knowledge and expertise to his wife, Sonia Kellogg, who has continued his legacy offering her 
+  own exclusive designs as well as designs based on Mr. Kellogg's houses. Our houses are constructed of 3/8" birch plywood starting at 
+  $115 for a four-room Cape Cod with Colonials starting at $220 and each house is individually hand made for the customer and can be 
+  customized as per the customer's tastes and price point.  We also specialize in restoring older dollhouses, some photos of which can be 
+  seen on the Facebook Page and can be sent to you upon request.  We also take commissions for replicating an existing structure, samples 
+  of commissioned replicas can be seen on this site in the <a href="gallery.html" target="#blank">Gallery</a> or on Kellogg's 
+  <a href="https://www.facebook.com/Kelloggsdollhouses" target="#blank" >Kellogg's Facebook page.</a>
+  <br>
+  <br>
+  Should the customer want a house built but in an unfinished stage, or semi-finished stage, we will give free tutorials and
+  take you through the finishing process and will sell you the materials necessary to do the finishing. Our dollhouses
+  customers are entitled to double discounts on all materials and furniture and accessories which we sell. Other
+  customers also receive discounts as well. We sell all the major brands.
+  <br>
+  <br>
+  We look foward to making your Dollhouse Wishes come true.
+    
+    
+    
+    
+    
+    
+</div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+        <div class="store-info">
+            <u><h3>Kellogg's Dolls' Houses</h3></u>
+            <p>29 Main Street<br>Cold Spring Harbor, L.I, New York 11724</p>
+        </div>
+        <div class="store-hours">
+            <u><h3>Store Hours</h3></u>
+            <ul> 
+                <li>Closed Mondays and Wednesdays</li>
+                <li>Open: Tuesdays, Thursdays, Fridays and Saturdays from 12 to 4:30, Sundays from 1 to 4:30</li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Phone number: (631) 692-5558</a></li>
+                <li><a href="https://www.facebook.com/Kelloggsdollhouses/" target="none">Facebook</a></li>
+                <li><a href="mailto:KelloggsDH@cs.com" target="none">KelloggsDH@cs.com</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Kellogg's Dolls' houses. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>

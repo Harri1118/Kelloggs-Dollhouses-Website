@@ -1,0 +1,394 @@
+body {
+  margin: 0;
+  /* Remove default margin */
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  background-color: rgb(0,51,102);
+  color: #333;
+  line-height: 1.6;
+}
+
+h1{
+  color:aqua;
+}
+#status {
+  font-weight: bold;
+}
+
+/*Home page header*/
+header {
+  position: relative;
+  /* Set the parent element to relative positioning */
+  height: 800px;
+  
+}
+
+#homePageHeader {
+  position: absolute;
+  /* Position the background image absolutely */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('http://www.kelloggsdollhouses.com/images/theme/background.gif');
+  /* Replace with your image URL */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-title {
+  position: relative;
+  /* Set the title div to relative positioning */
+  z-index: 1;
+  /* Place the title in front of the background image */
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+  
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in-out forwards;
+}
+
+
+/*Navbar Style*/
+.navbar {
+  background-color: rgb(0,51,102);
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 30px;
+  position: relative;
+}
+
+.navbar li a {
+  font-size: 20px;
+
+  font-weight: bold;
+  /* Bolden the navbar items */
+  color: aqua;
+  /* Set a better color for the text */
+  text-decoration: none;
+}
+
+.navbar li a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f00;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #f00;
+  /* Change the text color on hover to match the sliding bar color */
+}
+
+.navbar li a:hover::before {
+  transform: scaleX(1);
+}
+
+#navIm {
+ position:absolute; /* Position the image absolutely within the navbar */
+  top: 10px; /* Adjust the top position as needed */
+  left: 10px; /* Adjust the left position as needed */
+  width: 250px; /* Adjust the width of the image as needed */
+  height: auto;
+  
+}
+
+
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+/*Gallery tab*/
+.image-gallery {
+  padding-top: 20px;
+  display: inside;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-gallery img {
+
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.image-gallery img:hover {
+  opacity: .5;
+}
+
+.opacity-transition {
+  transition: 0.3 ease;
+}
+
+/* CSS for the overlay window */
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black overlay */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  
+
+}
+
+.button {
+  
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 16px;
+  background: none;
+  filter: invert(100%);
+}
+
+
+
+#closeButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#leftTap {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+
+}
+
+#rightTap {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+#displayImage {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+#cap {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+  padding: 5px;
+  width: 10%;
+  transform: translateX(425%);
+  left: 50%;
+  right: 50%;
+  justify-content: center;
+
+}
+
+#prevImg {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-200%);
+}
+
+#nextImg {
+  position: absolute;
+  right: 50%;
+  transform: translateX(200%);
+}
+
+/*Article tab*/
+#article-table {
+  margin: auto;
+  background-color: white;
+
+}
+
+.article_title {
+  color: #183a83;
+  font-size: 20pt;
+
+}
+
+.article_name {
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+.article_date {
+  font-weight: bold;
+  font-size: 9.5pt;
+
+}
+
+.article_link {
+  text-decoration: none;
+  color: blue;
+
+}
+
+.article_link:hover {
+  color: red;
+}
+
+.article_cell {
+  text-align: center;
+  
+  width: 11rem;
+}
+
+
+
+.main-content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  line-height: 2;
+}
+
+.main-content p {
+  margin-bottom: 20px;
+  font-size: 26px;
+  /* Adjust this value as needed */
+  text-align: justify;
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: rgb(0,51,102);
+  color: aqua;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.footer-links a:hover{
+color: red;
+}
+.store-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.store-hours {
+  margin-bottom: 20px;
+}
+
+.store-hours h3 {
+  margin-bottom: 10px;
+}
+
+.store-hours ul {
+  list-style: none;
+  padding: 0;
+}
+
+.store-hours li {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+
+
+/*Other Stuff*/
+#back{
+  transform: translateX(-470%);
+}
+
+#aboutUsMain{
+  font-size: 25px;
+}
+
+
+#archive-table{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+#archive-table img {
+
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+#archive-table img:hover {
+  opacity: .5;
+}

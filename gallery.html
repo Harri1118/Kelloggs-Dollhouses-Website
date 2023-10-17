@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Kellogg's Dollhouses</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="js/houses.js"></script>
+
+  <script type="text/json" src="js/houses.json"></script>
+
+
+
+</head>
+
+<body class="fade-in">
+  <style>
+    body {
+      color: #333;
+
+    }
+
+    span {
+      display: block;
+
+    }
+  </style>
+  <nav class="navbar fade-in"> <!-- Use the "navbar" class for the navigation bar -->
+    <div id="navIm" class="navbar-image">
+      <img src="images/theme/blueBanner.jpg" alt="Image in Navbar">
+    </div>
+    <ul>
+
+      <!--http://www.kelloggsdollhouses.com/images/theme/kdh_banner.gif-->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="archives.html">Archives</a></li>
+    </ul>
+  </nav>
+
+  <div id="lib" style="background-color:white; padding-top:10px">
+    <strong>
+      <h1 style="color:#183a83">Enjoy our selection of houses</h1>
+      <h3>Click on an image to enlarge.</h3>
+    </strong>
+    <div id="gallery" class="image-gallery">
+
+    </div>
+
+    <div id="overlay">
+
+      <button class="button" id="closeButton" width="100px" onclick="off()"><span>&#10005;</span> </button>
+      <br>
+      <br>
+      <button class="button" id="leftTap" onload="checkActivate()" onclick="galClickLEFT()"><span>&#8249;</span>
+      </button>
+      <img id="displayImage" src="" class="center">
+      <button class="button" id="rightTap" onload="checkActivate()" onclick="galClickRIGHT()"><span>&#8250;</span>
+      </button>
+      <p id="cap"></p>
+      <br>
+      <br>
+    </div>
+
+
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="store-info">
+        <h3>Kellogg's Dolls' Houses</h3>
+        <p>29 Main Street<br>Cold Spring Harbor, L.I, New York 11724</p>
+      </div>
+      <div class="store-hours">
+        <h3>Store Hours</h3>
+        <ul>
+          <li>Closed Mondays and Wednesdays</li>
+          <li>Open: Tuesdays, Thursdays, Fridays and Saturdays from 12 to 4:30, Sundays from 1 to 4:30</li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Phone number: (631) 692-5558</a></li>
+          <li><a href="https://www.facebook.com/Kelloggsdollhouses/" target="none">Facebook</a></li>
+          <li><a href="mailto:KelloggsDH@cs.com" target="none">KelloggsDH@cs.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Kellogg's Dolls' houses. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

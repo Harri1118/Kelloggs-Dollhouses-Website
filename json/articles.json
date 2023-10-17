@@ -1,0 +1,81 @@
+[
+    {
+        "id": 0,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/AmericanMoments.jpg",
+        "title": "Home, Tiny Home",
+        "author": "Charles Kuralt",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/articles/AmericanMoments.html"
+    },
+    {
+        "id": 1,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/TheDollhouseBook.jpg",
+        "title": "The Dollhouse Book",
+        "author": "Stephanie Finnegan",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/articles/TheDollhouseBook.html"
+    },
+    {
+        "id": 2,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/Metro.png",
+        "title": "Welcome to the dollhouse",
+        "date": "October 19th, 2010",
+        "author": "Meredith Engel",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/images/articles/MetroArticle19Oct2010.jpg"
+    },
+    {
+        "id": 3,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/nytimes.gif",
+        "title": "Cutting-Edge Science in an Old Whaling Village",
+        "date": "April 21, 2006",
+        "author": "Roger Mummert",
+        "desc": "",
+        "link": "https://www.nytimes.com/2006/04/21/travel/escapes/cuttingedge-science-in-an-old-whaling-village.html"
+    },
+    {
+        "id": 4,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/newsdaylogo.gif",
+        "title": "A Little Bit of Home",
+        "date": "December 31, 2001",
+        "author": "Newsday",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/articles/Newsday.html"
+    },
+    {
+        "id": 5,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/DollhouseMiniaturesMagazine.png",
+        "title": "In a snap ... Ned Kellogg turns favorite photos into treasured keepsakes",
+        "date": "July 1999",
+        "author": "Rebecca Rhodes",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/articles/DollhouseMiniatures.html"
+    },
+    {
+        "id": 6,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/mc.gif",
+        "title": "Ned Kellogg's Dollhouses",
+        "date": "October 1998",
+        "author": "Mary Kaliski",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/articles/MiniatureCollector.html"
+    },
+    {
+        "id": 7,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/dailynews.gif",
+        "title": "Cottage Industry",
+        "date": "November 23, 1997",
+        "author": "Ruth Bashinsky",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/articles/NYDailyNews.html"
+    },
+    {
+        "id": 8,
+        "icon": "http://www.kelloggsdollhouses.com/images/articles/nytimes.gif",
+        "title": "Ned Kellogg's Dollhouses",
+        "date": "July 17, 1992",
+        "author": "Dulcie Leimbach",
+        "desc": "",
+        "link": "http://www.kelloggsdollhouses.com/articles/NYTimes.html"
+    }
+]

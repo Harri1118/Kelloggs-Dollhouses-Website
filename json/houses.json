@@ -1,0 +1,172 @@
+[
+    {
+        "id": 0,
+        "caption": "REPLICA OF  HISTORIC HOUSE LOCATED IN ROSLYN, L.I., NEW YORK-COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/RoslynHouse.jpg"
+    },
+    {
+        "id": 1,
+        "caption": "KELLOGG'S NARROW GABLED FARMHOUSE WITH PORCH.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/NarrowGabled.jpg"
+    },
+    {
+        "id": 2,
+        "caption": "KELLOGG'S MEDIUM GABLED HOUSE WITH DOUBLE STRAIGHT-OUT PORCH",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/medium%20gabled%20house%20with%20double%20porch.jpg"
+    },
+    {
+        "id": 3,
+        "caption": "KELLOGG'S SMALL SHINGLED COLONIAL WITH FEDERAL ROOFLINE.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/shingled%20colonial%20JB.jpg"
+    },
+    {
+        "id": 4,
+        "caption": "KELLOGG'S CAPE WITH PEAKED PORTICO AND DORMERS.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/11250926_924128170942948_5340330727737982725_o.jpg"
+    },
+    {
+        "id": 5,
+        "caption": "KELLOGG'S LARGE COLONIAL WITH GABLE.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0071-crop.JPG"
+    },
+    {
+        "id": 6,
+        "caption": "KELLOGG'S 'JULIET HOUSE' WITH DOUBLE PORCH.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/82167542_2801206149901798_1229219519856115712_o.jpg"
+    },
+    {
+        "id": 7,
+        "caption": "KELLOGG'S RED RUSTIC DORMERED FARMHOUSE.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0032-crop%20%281%29.JPG"
+    },
+    {
+        "id": 8,
+        "caption": "KELLOGG'S REPLICA OF HISTORIC HOUSE LOCATED IN HUNTINGTON, NEW YORK - COMMISSIONED.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/202.jpg"
+    },
+    {
+        "id": 9,
+        "caption": "KELLOGG'S LARGE COLONIAL GABLED FARMHOUSE",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0049-crop.JPG"
+    },
+    {
+        "id": 10,
+        "caption": "KELLOGG'S SMALL 4-ROOM CAPE COD HOUSE.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0032-crop.JPG"
+    },
+    {
+        "id": 11,
+        "caption": "KELOGG'S SMALL GREEN TOWNHOUSE.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0020-crop.JPG"
+    },
+    {
+        "id": 12,
+        "caption": "REPLICA OF MODER A-FRAME HOUSE LOCATED IN HAMPTON BAYS, L.I, N.Y - COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/CopyOfContempotherpoint.jpg"
+    },
+    {
+        "id": 13,
+        "caption": "KELLOGG'S REPLICA OF RANCH CAPE LOCATED IN PENNSICOLA, FLORIDA - COMMISSIONED.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/RanchCape.jpg"
+    },
+    {
+        "id": 14,
+        "caption": "KELLOGG'S SMALL GABLED FARMHOUSE",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/92866319_3007107712644973_2263070946036285440_o.jpg"
+    },
+    {
+        "id": 15,
+        "caption": "KELLOGG'S MEDIUM COLONIAL HOUSE",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/Colonial27.JPG"
+    },
+    {
+        "id": 16,
+        "caption": "KELLOGG'S LARGE COLONIAL WITH GABLE AND DOUBLE WRAP SHINGLED PORCH",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/hse6-crop.JPG"
+    },
+    {
+        "id": 17,
+        "caption": "KELLOGG'S SMALL COLONIAL",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/019.JPG"
+    },
+    {
+        "id": 18,
+        "caption": "KELLOGG'S NATIVITY CRESCHE - ORIGINAL DESIGN - COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/049.JPG"
+    },
+    {
+        "id": 19,
+        "caption": "KELLOGG'S REPLICA OF HOUSE IN CHAPPAQUA, NEW YORK - COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0083-crop.JPG"
+    },
+    {
+        "id": 20,
+        "caption": "KELLOGG'S SMALL SAN FRANCISCO TOWNHOUSE",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/RedesignedSFPaintedLady.jpg"
+    },
+    {
+        "id": 21,
+        "caption": "KELLOGG'S MEDIUM COLONIAL WITH PILLARS AND QUOINS",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/pillared%20colonial.jpg"
+    },
+    {
+        "id": 22,
+        "caption": "KELLOGG'S NANTUCKET CAPE",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/IMG_20230318_151821-crop.jpg"
+    },
+    {
+        "id": 23,
+        "caption": "KELLOGG'S LARGE COLONIAL WITH ROUNDED PORTICO AND FLUTED PILLARS",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/IMG_20230204_162419-crop.jpg"
+    },
+    {
+        "id": 24,
+        "caption": "KELLOGG'S  'THE OLD CURIOSITY SHOP'",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/62172227_2341384372550647_5180994327333044224_n.jpg"
+    },
+    {
+        "id": 25,
+        "caption": "KELLOGG'S NARROW HOUSE WITH GABLE AND WRAP PORCH",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/IMG_20221015_151516.jpg"
+    },
+    {
+        "id": 26,
+        "caption": "KELLOGG'S REPLICA OF BRICK TUDOR HOUSE LOCATED IN OYSTER BAY, NEW YORK - COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/74453078_2629682490387499_5753660544749928448_n.jpg"
+    },
+    {
+        "id": 27,
+        "caption": "CONTRACTOR'S MODEL FOR UNIVERSITY DORM HOUSES - COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/035.JPG"
+    },
+    {
+        "id": 28,
+        "caption": "REPLICA OF HOUSE LOCATED IN LYNBROOK, NEW YORK -COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/89026683_2914297148592697_6833270191724429312_o.jpg"
+    },
+    {
+        "id": 29,
+        "caption": "KELLOGG'S TALL NARROW HOUSE WITH STONE FOUNDATION, FRONT STEPS WITH RAILS AND RIBBED ROOFING.",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/IMG_20230310_162553.jpg"
+    },
+    {
+        "id": 30,
+        "caption": "REPLICA OF HOUSE LOCATED IN WANTAGH, NEW YORK - COMMISSIONED",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0009-crop.JPG"
+    },
+    {
+        "id": 31,
+        "caption": "KELLOGG'S RUSTIC CABIN WITH CEDAR BOARD SIDING AND PORCH",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/151841399_561927541446704_1771623515467301279_n.jpg"
+    },
+    {
+        "id": 32,
+        "caption": "FEDERAL FARMHOUSE BASED ON HISTORIC 1835 HOUSE LOCATED IN CUTCHOQUE, NEW YORK",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0026-crop.JPG"
+    },
+    {
+        "id": 33,
+        "caption": "LARGE COLONIAL WITH CONCAVE PORTICO AND PILLARS",
+        "icon": "http://www.kelloggsdollhouses.com/images/gallery/DSCN0117-crop.JPG"
+    }
+]
